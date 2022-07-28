@@ -9,6 +9,13 @@ h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
   font-weight: bold;
+  line-height: 128px;
+}
+h2 {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 85px;
 }
 h3 {
   font-family: var(--default-font-family);
@@ -18,7 +25,8 @@ h3 {
 }
 p {
   font-family: "Poppins", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
+  line-height: 24px;
   font-weight: normal;
   margin: 40px 0;
   color: var(--secondary-color);
@@ -28,7 +36,10 @@ p {
   background: var(--primery-color);
   padding: 160px 20px;
 }
-
+.introduction-page p {
+  font-size: 24px;
+  line-height: 36px;
+}
 .btn-contact {
   background: var(--button-color);
   color: white;
@@ -36,4 +47,36 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 25px;
+}
+.btn-project {
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 25px;
+}
+.project-description {
+  padding: 120px 60px;
+}
+.project-description p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+@media (max-width: 1200px) {
+  .project-description {
+    padding: 20px 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+  h2 {
+    font-family: var(--heading-font-family);
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 44px;
+  }
 }
