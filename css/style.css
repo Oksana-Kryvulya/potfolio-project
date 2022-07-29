@@ -83,10 +83,12 @@ p {
 .container-content {
   margin: 30px;
 }
-.work-page-projectname {
+.work-page-projectname,
+.contacts p {
   font-size: 24px;
   line-height: 36px;
   font-weight: bold;
+  line-height: 30px;
 }
 .work-page-subtext {
   font-size: 14px;
