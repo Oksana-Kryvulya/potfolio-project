@@ -40,8 +40,7 @@ p {
   font-size: 24px;
   line-height: 36px;
 }
-.btn-contact,
-.btn-about-page {
+.btn-brend {
   background: var(--button-color);
   color: white;
   border-radius: 4px;
@@ -64,28 +63,39 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
-.about-section h1 {
+.container h1 {
   font-family: var(--heading-font-family);
   font-size: 64px;
   font-weight: bold;
   line-height: 85px;
 }
-.about-section h3 {
+.container h3 {
   font-size: 18px;
   line-height: 27px;
   margin: 40px 0;
 }
-.about-section {
+.container {
   padding: 160px 20px;
 }
-.about-section-content {
+.container p {
+  margin: 0;
+}
+.container-content {
   margin: 30px;
+}
+.work-page-projectname {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+}
+.work-page-subtext {
+  font-size: 14px;
 }
 @media (max-width: 1400px) {
   .project-description {
     padding: 0;
   }
-  .about-section {
+  .container {
     padding: 100px 20px;
   }
 }
@@ -100,14 +110,14 @@ p {
     font-weight: bold;
     line-height: 44px;
   }
-  .about-section h1 {
+  .container h1 {
     font-size: 44px;
     font-weight: bold;
     line-height: 54px;
   }
 }
 @media (max-width: 990px) {
-  .about-section {
+  .container {
     text-align: center;
   }
 }
@@ -115,8 +125,7 @@ p {
   .project-description {
     text-align: center;
   }
-  .about-section {
+  .container {
     padding: 0;
   }
 }
-
