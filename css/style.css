@@ -77,6 +77,29 @@ p {
 .container {
   padding: 160px 20px;
 }
+.header-container {
+  padding: 20px 40px;
+}
+ul {
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+nav li {
+  display: inline;
+  margin-left: 15px;
+}
+nav a {
+  font-size: 16px;
+  font-style: var(--default-font-family);
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: medium;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav a.active {
+  color: var(--button-color);
+}
 .container p {
   margin: 0;
 }
@@ -124,10 +147,22 @@ p {
   }
 }
 @media (max-width: 768px) {
+  .introduction-page {
+    padding: 80px 20px;
+  }
   .project-description {
     text-align: center;
   }
   .container {
-    padding: 0;
+    padding: 20px;
+  }
+  .container-content {
+    margin: 0 0 10px;
+  }
+  .header-container {
+    padding: 0 20px;
+  }
+  nav li {
+    margin-left: 5px;
   }
 }
