@@ -103,7 +103,8 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 nav a:hover,
-nav a.active {
+nav a.active,
+.email-link:hover {
   color: var(--button-color);
 }
 .container p {
@@ -207,5 +208,8 @@ footer .social-links a:hover {
   }
   nav li {
     margin-left: 5px;
+  }
+  .github-link {
+    font-size: 14px;
   }
 }
