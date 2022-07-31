@@ -15,13 +15,19 @@ h2 {
   font-family: var(--heading-font-family);
   font-size: 64px;
   font-weight: bold;
-  line-height: 85px;
+  line-height: 64px;
 }
 h3 {
   font-family: var(--default-font-family);
   font-size: 36px;
   font-weight: bold;
   color: var(--secondary-color);
+}
+h4 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 85px;
 }
 p {
   font-family: var(--default-font-family);
@@ -75,7 +81,7 @@ p {
   margin: 40px 0;
 }
 .container {
-  padding: 160px 20px;
+  padding: 60px 20px 60px;
 }
 .header-container {
   padding: 20px 40px;
@@ -116,12 +122,49 @@ nav a.active {
 .work-page-subtext {
   font-size: 14px;
 }
+footer {
+  margin: 0;
+}
+footer p {
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--secondary-color);
+}
+footer .contact-box {
+  background: var(--primery-color);
+  padding: 20px 80px;
+  margin: 0;
+  border-radius: 6px;
+}
+footer .email-link {
+  font-size: 24px;
+  font-style: var(--default-font-family);
+  text-decoration: none;
+  color: black;
+  font-weight: medium;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--button-color);
+  background: var(--primery-color);
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--button-color);
+}
 @media (max-width: 1400px) {
   .project-description {
     padding: 0;
   }
   .container {
-    padding: 100px 20px;
+    padding: 40px 20px;
+  }
+  footer .contact-box {
+    padding: 20px;
   }
 }
 @media (max-width: 1200px) {
